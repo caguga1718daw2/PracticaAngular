@@ -3,13 +3,11 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TaulaPelisComponent } from './taula-pelis/taula-pelis.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    TaulaPelisComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
